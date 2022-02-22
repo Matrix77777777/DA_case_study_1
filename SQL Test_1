@@ -1,0 +1,21 @@
+
+SELECT 
+    *
+FROM
+test_1.tast_table_1
+UNION ALL
+SELECT
+    *
+    FROM 
+    test_1.tast_table_2
+    UNION ALL
+SELECT
+    *
+    FROM 
+    test_1.tast_table_3
+    UNION ALL
+SELECT
+    *
+    FROM 
+    test_1.tast_table_4
+ORDER BY ride_id;
